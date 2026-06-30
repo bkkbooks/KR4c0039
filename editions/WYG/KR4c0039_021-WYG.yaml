@@ -1,0 +1,18 @@
+canonical_identifier: bkk:krp/KR4c0039/WYG/v1/juan/21
+seq: 21
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 唐陸宣公集
+  edition:
+    short: WYG
+    label: 【四庫全書・文淵閣】
+  date: '2015-09-11 08:05:41.126653'
+  source:
+    repository: kanripo
+    path: KR4c0039/KR4c0039_021.txt
+hash: sha256:1bbd9e6a68d4c96b55dee72a61381ea676d86a46cf3e39dafc3ebf0456a4ea2b
