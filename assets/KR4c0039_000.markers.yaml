@@ -39,6 +39,7 @@ markers:
       ', id: KR4c0039_krp_000-bkkkrnewl6}
   - {type: line-break, offset: 81, content: '', id: KR4c0039_SBCK_000-1a06}
   - {type: punctuation, offset: 85, content: (, id: KR4c0039_krp_000-bkkpn1}
+  - {type: voice, offset: 85, length: 2, name: note, id: n1}
   - {type: punctuation, offset: 86, content: /, id: KR4c0039_krp_000-bkkpn2}
   - {type: substitution, offset: 86, original: 声, replacement: 聲, reason: scribal-variant-collapsed, mapping: {identifier: 'bkk:mapping/variant-fold-v1', hash: 'sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20', entry: vf-16472}}
   - {type: punctuation, offset: 87, content: ), id: KR4c0039_krp_000-bkkpn3}
@@ -90,6 +91,7 @@ markers:
       ', id: KR4c0039_krp_000-bkkkrnewl16}
   - {type: line-break, offset: 235, content: '', id: KR4c0039_SBCK_000-1b05}
   - {type: punctuation, offset: 241, content: (, id: KR4c0039_krp_000-bkkpn4}
+  - {type: voice, offset: 241, length: 4, name: note, id: n2}
   - {type: punctuation, offset: 243, content: /, id: KR4c0039_krp_000-bkkpn5}
   - {type: variant, offset: 243, length: 184, content: 作尉御史府以監察換之德宗皇帝春宮時知名召對翰林即日爲學士由祠部貟外轉考功郎中朱泚之亂從幸奉天時車駕播遷詔書旁午公灑翰即成不復起草初若不經思慮及成而奏無不曲盡事情中於機㑹倉卒塡委同職者無不拱手歎伏不能復有所助甞從容奏曰此時詔書陛下冝痛自引過以感人心昔禹湯以罪已勃興楚昭以善言復國陛下誠能不恡改過以言謝天下俾臣草辭無諱庶幾羣盗革心上從之故行在詔書始下雖武人悍卒無不揮涕激發, WYG: 按藝文志載贄}
   - {type: punctuation, offset: 245, content: ), id: KR4c0039_krp_000-bkkpn6}
@@ -1912,4 +1914,4 @@ markers:
   - {type: page-break, offset: 2173, content: '', id: KR4c0039_WYG_000-22b, image: WYG1072/WYG1072-0576b.png}
   - {type: page-break, offset: 2173, content: '', id: KR4c0039_WYG_001-1a, image: WYG1072/WYG1072-0576c.png}
   back: []
-hash: sha256:c80be2d08abb5bf4094eb78c329ab8beda16422abe3035dda18716b79ccf046a
+hash: sha256:ac4d0cf3d5b0602e07b014eca56993e38855d591a195cf47e4ada7fe0016e048

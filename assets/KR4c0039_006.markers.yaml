@@ -13,6 +13,7 @@ markers:
   - {type: punctuation, offset: 13, content: (, id: KR4c0039_krp_006-bkkpn1}
   - {type: variant, offset: 13, length: 1, content: 冊, SBCK: 􅁽}
   - {type: substitution, offset: 13, original: 冊, replacement: 册, reason: scribal-variant-collapsed, mapping: {identifier: 'bkk:mapping/variant-fold-v1', hash: 'sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20', entry: vf-16267}}
+  - {type: 'voice:problem', offset: 13, length: 0, id: KR4c0039_bkk_006-bkkvprob1, source: parens, bucket: front, code: unmatched-open, message: unmatched '(' at offset 13}
   - {type: variant, offset: 16, length: 1, content: 冊, SBCK: 􅁽}
   - {type: substitution, offset: 16, original: 冊, replacement: 册, reason: scribal-variant-collapsed, mapping: {identifier: 'bkk:mapping/variant-fold-v1', hash: 'sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20', entry: vf-16267}}
   - {type: variant, offset: 17, length: 1, content: 祭, SBCK: 􅀕}
@@ -29,6 +30,7 @@ markers:
   - {type: line-break, offset: 0, content: '', id: KR4c0039_SBCK_006-1a02}
   - {type: indent, offset: 0, content: 　　, id: KR4c0039_krp_006-bkkind1}
   - {type: substitution, offset: 0, original: 冊, replacement: 册, reason: scribal-variant-collapsed, mapping: {identifier: 'bkk:mapping/variant-fold-v1', hash: 'sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20', entry: vf-16267}}
+  - {type: 'voice:problem', offset: 0, length: 0, id: KR4c0039_bkk_006-bkkvprob2, source: parens, bucket: body, code: stray-close, message: unexpected ')' at offset 0 with no matching '('}
   - {type: variant, offset: 5, length: 1, content: 爲, WYG: 為}
   - {type: substitution, offset: 5, original: 爲, replacement: 為, reason: scribal-variant-collapsed, mapping: {identifier: 'bkk:mapping/variant-fold-v1', hash: 'sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20', entry: vf-19875}}
   - {type: 'kr:newline', offset: 9, content: '
@@ -1737,4 +1739,4 @@ markers:
 
       ', id: KR4c0039_krp_006-bkkkrnewl303}
   back: []
-hash: sha256:9c58b764ae3c5dac635bf7ef5ffc4bc819c40090114ec0e6d0721814309a418b
+hash: sha256:46751acef96c6e89d5cb6d14d2cab310352a99a2ffc3a7f4dc4b84418a06d4ae

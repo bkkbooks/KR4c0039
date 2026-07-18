@@ -2530,6 +2530,7 @@ markers:
   - {type: line-break, offset: 7366, content: '', id: KR4c0039_SBCK_017-22b10}
   - {type: punctuation, offset: 7369, content: (, id: KR4c0039_krp_017-bkkpn1}
   - {type: page-break, offset: 7369, content: '', id: KR4c0039_WYG_017-24a, image: WYG1072/WYG1072-0730a.png}
+  - {type: voice, offset: 7369, length: 2, name: note, id: n1}
   - {type: punctuation, offset: 7370, content: /, id: KR4c0039_krp_017-bkkpn2}
   - {type: punctuation, offset: 7371, content: ), id: KR4c0039_krp_017-bkkpn3}
   - {type: variant, offset: 7378, length: 2, content: 辨者, WYG: 辯}
@@ -2921,4 +2922,4 @@ markers:
 
       ', id: KR4c0039_krp_017-bkkkrnewl559}
   back: []
-hash: sha256:12e26ff963bd6c80a66b386d345eb31b8e0572a2d2edc9f84d77aefee805e806
+hash: sha256:1e0df44df1c082d92dd109080c5bc23a59b1d534a8d51f844b720211c8f7f2ef

@@ -12,6 +12,7 @@ markers:
   - {type: indent, offset: 8, content: 　, id: KR4c0039_krp_007-bkkind1}
   - {type: variant, offset: 10, length: 3, content: 卷第七, WYG: ''}
   - {type: punctuation, offset: 13, content: (, id: KR4c0039_krp_007-bkkpn1}
+  - {type: 'voice:problem', offset: 13, length: 0, id: KR4c0039_bkk_007-bkkvprob1, source: parens, bucket: front, code: unmatched-open, message: unmatched '(' at offset 13}
   body:
   - {type: punctuation, offset: 0, content: ), id: KR4c0039_krp_007-bkkpn1}
   - {type: 'kr:newline', offset: 0, content: '
@@ -19,6 +20,7 @@ markers:
       ', id: KR4c0039_krp_007-bkkkrnewl1}
   - {type: line-break, offset: 0, content: '', id: KR4c0039_SBCK_007-1a02}
   - {type: indent, offset: 0, content: 　　, id: KR4c0039_krp_007-bkkind1}
+  - {type: 'voice:problem', offset: 0, length: 0, id: KR4c0039_bkk_007-bkkvprob2, source: parens, bucket: body, code: stray-close, message: unexpected ')' at offset 0 with no matching '('}
   - {type: variant, offset: 2, length: 1, content: 可, WYG: 司}
   - {type: 'kr:newline', offset: 9, content: '
 
@@ -1205,4 +1207,4 @@ markers:
 
       ', id: KR4c0039_krp_007-bkkkrnewl216}
   back: []
-hash: sha256:ef7e97ad1089eb1cf420152be0e9f39ef071b9159f984d16c5187e09af8bf635
+hash: sha256:2635356b0d206f4227e1a3fac2d1179b92d7e15788bd8ed36a454a5209017dbb

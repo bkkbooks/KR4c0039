@@ -8,6 +8,7 @@ markers:
   - {type: line-break, offset: 0, content: '', id: KR4c0039_SBCK_001-1a01}
   - {type: variant, offset: 0, length: 16, content: 唐陸宣公集卷第一制誥卷第一赦有上, WYG: ''}
   - {type: punctuation, offset: 13, content: (, id: KR4c0039_krp_001-bkkpn1}
+  - {type: 'voice:problem', offset: 13, length: 0, id: KR4c0039_bkk_001-bkkvprob1, source: parens, bucket: front, code: unmatched-open, message: unmatched '(' at offset 13}
   body:
   - {type: punctuation, offset: 0, content: ), id: KR4c0039_krp_001-bkkpn1}
   - {type: 'kr:newline', offset: 0, content: '
@@ -15,6 +16,7 @@ markers:
       ', id: KR4c0039_krp_001-bkkkrnewl1}
   - {type: line-break, offset: 0, content: '', id: KR4c0039_SBCK_001-1a02}
   - {type: indent, offset: 0, content: 　　, id: KR4c0039_krp_001-bkkind1}
+  - {type: 'voice:problem', offset: 0, length: 0, id: KR4c0039_bkk_001-bkkvprob2, source: parens, bucket: body, code: stray-close, message: unexpected ')' at offset 0 with no matching '('}
   - {type: punctuation, offset: 7, content: (, id: KR4c0039_krp_001-bkkpn2}
   - {type: punctuation, offset: 14, content: /, id: KR4c0039_krp_001-bkkpn3}
   - {type: variant, offset: 16, length: 1, content: 爲, WYG: 為}
@@ -1573,4 +1575,4 @@ markers:
 
       ', id: KR4c0039_krp_001-bkkkrnewl274}
   back: []
-hash: sha256:8d8351bdaf686b6e8f0616312cd9c82739d29a9c6ad8cfd73791691d699659ef
+hash: sha256:5a595736c49b87a951345c25466099bbaa75ce11c19872c7053fef9121af24f8
